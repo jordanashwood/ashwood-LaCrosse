@@ -93,10 +93,67 @@ header h3 {
   letter-spacing: 5px;
   margin: 0;
 }
+main {
+  color: white;
+}
+main h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-align: left;
+  opacity: 30%;
+  margin: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+main h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: left;
+  margin: 0;
+}
+main h5 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  margin: 0;
+}
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+}
+.card {
+  background: #272435;
+}
+.card img {
+  margin-bottom: 20px;
+}
+.card p {
+  opacity: 70%;
+}
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
 }
 .container {
   max-width: 1400px;
@@ -109,39 +166,41 @@ section {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .grid-3-columns-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 .img-responsive {
   max-width: 100%;
 }
-.why-la-crosse {
-  color: white;
-}
-.why-la-crosse h2 {
+.primary h2 {
   font-size: 40px;
   font-weight: 700;
-  line-height: 1.5;
-  text-align: left;
-  margin: 0;
-}
-.why-la-crosse h3 {
-  font-size: 16px;
-  font-weight: 700;
   line-height: 1;
-  letter-spacing: 5px;
   text-align: left;
-  opacity: 30%;
   margin: 0;
-  text-transform: uppercase;
 }
-.why-la-crosse p {
+.primary p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.75;
   text-align: left;
-  color: white;
   opacity: 70%;
+}
+section.secondary {
+  background: #181525;
+}
+.secondary h3 {
+  text-align: center;
+}
+.secondary h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 @media (max-width: 900px) {
