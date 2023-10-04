@@ -40,6 +40,10 @@ footer li {
 footer a {
   color: white;
   opacity: 0.7;
+  transition: all 200ms ease-in-out;
+}
+footer a:hover {
+  opacity: 1;
 }
 .grid {
   display: grid;
@@ -67,6 +71,12 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   background: white;
+  transition: all 200ms ease-in-out;
+}
+header a:hover {
+  color: white;
+  background: transparent;
+  border: 5px solid white;
 }
 header h1 {
   font-size: 96px;
