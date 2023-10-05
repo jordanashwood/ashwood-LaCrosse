@@ -195,10 +195,12 @@ section {
 section.secondary {
   background: #181525;
 }
-.secondary h3 {
+.secondary h3,
+.tertiary h3 {
   text-align: center;
 }
-.secondary h2 {
+.secondary h2,
+.tertiary h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 1;
@@ -206,9 +208,6 @@ section.secondary {
   margin-bottom: 60px;
 }
 .tertiary {
-  text-align: center;
-}
-.tertiary h3 {
   text-align: center;
 }
 
