@@ -141,22 +141,25 @@ section {
 .card {
   background: #272435;
 }
-.card img {
-  margin-bottom: 20px;
-}
 .card p {
   opacity: 70%;
+}
+.card-header.grid {
+  grid-gap: 0;
 }
 .card-body {
   padding: 30px;
 }
-
 .card-footer {
   padding: 0 30px 30px;
 }
 .container {
   max-width: 1400px;
   margin: 0 auto;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 .grid {
   display: grid;
@@ -172,7 +175,8 @@ section {
   grid-template-columns: 1fr 2fr 2fr;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
+  display: block;
 }
 .primary h2 {
   font-size: 40px;
