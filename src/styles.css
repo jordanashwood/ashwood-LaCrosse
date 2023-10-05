@@ -160,6 +160,12 @@ section {
 .embed {
   width: 100%;
   aspect-ratio: 1 / 1;
+  overflow: hidden;
+  transition: 0.5s all ease-in-out;
+}
+.embed:hover {
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
 }
 .grid {
   display: grid;
